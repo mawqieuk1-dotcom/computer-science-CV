@@ -1,0 +1,82 @@
+/* ========== Dark Mode - All White Text ========== */
+body.dark {
+    --bg: #0a0e17;
+    --bg-secondary: #111827;
+    --text: #ffffff;
+    --text-light: #d1d5db;
+    --card-bg: #111827;
+    --card-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    --header-bg: rgba(10,14,23,0.95);
+}
+
+/* جميع النصوص الأساسية */
+body.dark,
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6,
+body.dark p, body.dark span, body.dark a, body.dark li, body.dark label,
+body.dark .nav-list a, body.dark .logo, body.dark .icon-btn,
+body.dark .section-header h2, body.dark .section-header p,
+body.dark .project-card h3, body.dark .project-card p,
+body.dark .tech-item span,
+body.dark .github-card h3, body.dark .github-card p,
+body.dark .github-stats span,
+body.dark .form-group label, body.dark .bottom-nav-item,
+body.dark .footer p,
+body.dark .booking-form input, body.dark .booking-form textarea {
+    color: #ffffff !important;
+}
+
+/* استثناءات للتمييز */
+body.dark .hero-text .accent { color: #00c9a7 !important; }
+body.dark .hero-badge { background: rgba(0,201,167,0.2); color: #00c9a7 !important; }
+body.dark .hero-text p { color: #9ca3af !important; }
+body.dark .hero-stats span:first-child { color: #00c9a7 !important; }
+body.dark .hero-stats span:last-child { color: #9ca3af !important; }
+
+/* أزرار */
+body.dark .btn-primary { background: #00c9a7; color: #0a0e17 !important; }
+body.dark .btn-primary:hover { background: #00b894; }
+body.dark .btn-outline { border-color: #00c9a7; color: #00c9a7 !important; }
+body.dark .btn-outline:hover { background: #00c9a7; color: #0a0e17 !important; }
+
+/* بطاقات المشاريع */
+body.dark .project-card { background: var(--card-bg); }
+body.dark .project-tags span { background: #1e293b; color: #e2e8f0 !important; }
+body.dark .project-link { color: #00c9a7 !important; }
+body.dark .project-link:hover { color: #00b894 !important; }
+body.dark .project-img { background: var(--bg-secondary); }
+
+/* التقنيات */
+body.dark .tech-item i { color: #00c9a7 !important; }
+body.dark .tech-bar { background: #1e293b; }
+body.dark .tech-fill { background: #00c9a7; }
+
+/* GitHub */
+body.dark .github-card { background: var(--card-bg); }
+body.dark .github-card i { color: #00c9a7 !important; }
+body.dark .github-stats span i { color: #00c9a7 !important; }
+
+/* النموذج */
+body.dark .booking-form { background: var(--card-bg); }
+body.dark .booking-form input,
+body.dark .booking-form textarea {
+    background: rgba(255,255,255,0.03);
+    border-color: rgba(255,255,255,0.1);
+}
+body.dark .booking-form input::placeholder,
+body.dark .booking-form textarea::placeholder { color: #6b7280; }
+
+/* الفوتر */
+body.dark .footer { background: #060910; }
+body.dark .footer .social-links a { background: rgba(255,255,255,0.05); color: #fff; }
+body.dark .footer .social-links a:hover { background: #00c9a7; color: #0a0e17 !important; }
+
+/* الشريط السفلي */
+body.dark .bottom-nav { background: var(--card-bg); border-top: 1px solid rgba(255,255,255,0.05); }
+body.dark .bottom-nav-item.active { color: #00c9a7 !important; }
+
+/* الهيرو */
+body.dark .hero-avatar { border-color: rgba(0,201,167,0.4); }
+body.dark .hero-avatar:hover { border-color: #00c9a7; }
+
+/* الجسيمات */
+body.dark #particleCanvas { opacity: 0.3; }
